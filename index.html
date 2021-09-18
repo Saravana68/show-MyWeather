@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>show MyWeather | 2021</title>
+
+    <!-- linking stylesheet -->
+    <link rel="icon" href="./Src/Icon.svg.svg">
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body class=>
+    <!-- Start of header section -->
+    <header class="hero">
+      <h2>show MyWeather🌦️</h2>
+      <p>type the city name to get weather info!</p>
+    </header>
+
+    <!-- Start of Main section -->
+    <article class="main">
+      <!--form start  -->
+      <form class="input-form">
+        <input
+          type="text"
+          name="input"
+          class="input"
+        />
+        <input type="submit"class="btn">
+      </form>
+
+      <!-- start of weather box  -->
+      <div class="weather-box ">
+        <img class="weather-img" src="./Src/moonwolf.gif" alt="" />
+      <article class="weather-container">
+        <div class="weather-icon">
+          <!-- icons -->
+          <img class="icon" src="./Src/icons/1.svg" ></img>
+        </div>
+        <!-- part will updated by javascript  -->
+        <div class="weather-info">
+          <h5 class="city-name">India</h5>
+          <div class="weather-condition">mostly cloudly</div>
+          <div class="weather-temperature">
+            <span class="number">25</span>
+            <span>&deg; c</span>
+          </div>
+          <div class="weather-text">
+            <p>&quot;thunderstorm late sunday night&quot;</p>
+          </div>
+        </div>
+      </div>
+      </article>
+      <!-- End of weather box -->
+    </article>
+    <!-- End of Main Section -->
+
+    <!-- linking javascript  -->
+    <script src="./JS/forecast.js"></script>
+    <script src="JS/app.js"></script>
+  </body>
+</html>
+
+
